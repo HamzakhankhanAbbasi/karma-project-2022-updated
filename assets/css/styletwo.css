@@ -1,0 +1,774 @@
+/* ========Credit Page Css Start Here========= */
+.credit-content {
+    position: relative;
+    text-align: center;
+}
+.credit-plane {
+    position: absolute;
+    bottom: -9%;
+    left: -6px;
+    max-width: 400px;
+    z-index: 9999;
+}
+/* Section 2 */
+.credit-packages {
+    position: relative;
+    background: url('../images/credit-banner.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 950px;
+    width: 100%;
+    padding: 150px 0px 0;
+    position: relative;
+}
+.packages-box {
+    text-align: center;
+}
+.pkg-btm-body {
+    background: #11044c;
+    padding: 0px 0px 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+.basic-bg {
+    background: linear-gradient(90deg, rgba(29,51,247,1) 12%, rgba(133,145,251,1) 84%);
+    color: #fff;
+}
+.gold-bg {
+    background: radial-gradient(circle, rgba(222,154,22,1) 13%, rgba(254,246,136,1) 51%, rgba(191,135,27,1) 98%);
+    color: #000;
+}
+.silver-bg {   
+    background: radial-gradient(circle, rgba(238,238,238,1) 10%, rgba(128,128,128,1) 67%, rgba(109,109,109,1) 100%);
+    color: #000;
+}
+.platinum-bg {
+    background: linear-gradient(90deg, rgba(235,232,232,1) 9%, rgba(167,168,172,1) 33%, rgba(235,232,232,1) 54%, rgba(167,168,172,1) 84%);
+    color: #000;
+}
+.boldnum {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+.credit-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.credits {
+    padding: 40px 0px 30px;
+}
+.pay-btn a {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    display: initial;
+}
+.pay-btn a:hover {
+    background: radial-gradient(circle, rgba(222,154,22,1) 13%, rgba(254,246,136,1) 51%, rgba(191,135,27,1) 98%);
+    color: #000 !important;
+    border-color: #bf871b;
+}
+.pkg-top-body {
+    padding: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.note-desc-sect p {
+    color: #fff;
+}
+.note-desc-sect {
+    padding-top: 150px;
+}
+.credit-wrap .newsletter-sect {
+    min-height: 915px;
+    margin-top: -125px;
+}
+.lifestyle {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    max-width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.credit-wrap .form-wrap {
+    margin: 30px auto 0;
+}
+.credit-userimg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 350px;
+}
+.makediff-img {
+    position: absolute;
+    right: 0;
+    bottom: 9%;
+    max-width: 350px;
+}
+/* Ticket page */
+.ticket-price-st {
+    background: url(../images/credit-banner.png);
+    background-size: cover;
+    min-height: 1400px;
+    width: 100%;
+    padding: 150px 0px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.tkt-customrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticket-price-wrap {
+    width: 100%;
+    max-width: 560px;
+}
+/* Swiper Css */
+.ticket-wrap .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: linear-gradient(140deg, rgba(0,1,18,1) 0%, rgba(10,23,135,1) 50%, rgba(0,1,18,1) 100%);    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.ticket-wrap .swiper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticket-wrap .swiper-slide {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    height: 590px;
+}
+.ticket-wrap .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0 0;
+}
+.ticket-wrap .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+.ticket-wrap .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+.ticket-wrap .mySwiper .swiper-slide img {
+    max-width: 80px;
+}
+.ticket-wrap .mySwiper .swiper-slide {
+    width: 150px;
+    height: 150px;
+    opacity: 1 !important;
+}
+.ticket-wrap .swiper-button-next, .swiper-button-prev {
+    display: none;
+}
+/*  */
+.competition-wrap {
+    padding: 50px 30px;
+    background: #000110;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 560px;
+}
+.competition-wrap .boldTitle {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.comp-timer {
+    padding: 20px 0 0;
+}
+.counter-progress-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.counter-progress-bar p {
+    color: #fff;
+    font-size: 22px;
+}
+.countewr-bar-wrap .progress-bar {
+    background: linear-gradient(180deg, rgba(21,44,247,1) 31%, rgba(82,97,228,1) 74%);border-radius: 10px;
+}
+.countewr-bar-wrap .progress {
+    border-radius: 10px;
+    background: #ffffff;
+}
+.total-people-wrap {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+}
+.total-people-wrap p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.credit-price-bg {
+    height: 140px;
+    background: linear-gradient(174deg, rgba(21,44,247,1) 31%, rgba(82,97,228,1) 74%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.credit-price-bg span {
+    display: flex;
+    align-items: center;
+}
+.credit-price-bg span p {
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+/* rate form button */
+.rate-form-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.rate-form-wrap form {
+    display: flex;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.rate-form-wrap .value-button {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(21,44,247,1) 31%, rgba(82,97,228,1) 74%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% !important;
+}
+.rate-form-wrap .value-button:hover {
+    cursor: pointer;
+}
+  .rate-form-wrap input {
+    text-align: center;
+    border: none;
+    margin: 0px;
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.rate-form-wrap input[type=number]::-webkit-inner-spin-button,
+.rate-form-wrap input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  .ticket-price-st .small-para {
+    max-width: 750px;
+}
+.ticket-price-st .lifestyle {
+    bottom: 3%;
+}
+.profession-img {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    max-width: 230px;
+}
+.sb-img-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 350px;
+}
+.sb-img-2 {
+    position: absolute;
+    right: 0;
+    bottom: 9%;
+    max-width: 350px;
+}
+/* ==================== */
+/*******POPUP MODALS START*******/
+.user-modals .modal-header{
+    position: relative;
+    padding: 0;
+    border: none;
+  }
+  .user-modals .modal-header .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(21,44,247,1) 31%, rgba(82,97,228,1) 74%);
+    border-radius: 100%;
+    text-shadow: none;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    outline: none;
+    border: none;
+  }
+  /* .user-modals .modal-header .close span{
+    position: relative;
+    top: -2px;
+    right: 0px;
+  } */
+  .login-signup-modal .modal-content{
+    border-radius: 15px;
+    margin: 15px;
+  }
+  .login-signup-modal .modal-body{
+    padding: 0;
+  }
+  .login-signup-modal .modal-dialog{
+    max-width: 768px;
+  }
+  .login-modal h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    color: #282828;
+  }
+  .overlay-container h1{
+    color: #fff;
+  }
+  .login-modal h2 {
+    text-align: center;
+  }
+  .login-modal p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+    color: #fff;
+  }
+  .login-modal span {
+    font-size: 16px;
+  }
+  .login-modal a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+  }
+  .login-modal .submit {
+    border-radius: 10px;
+    border: 1px solid #0f1cf6;
+    background: linear-gradient(90deg, rgba(21,44,247,1) 31%, rgba(82,97,228,1) 74%);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .login-modal button:active {
+    transform: scale(0.95);
+  }
+  .login-modal button:focus {
+    outline: none;
+  }
+  .login-modal button.slide-button {
+    background: #fff;
+    border-color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.25s;
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+  }
+  .login-modal button.slide-button:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+  }
+  .login-modal form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    height: 100%;
+    text-align: center;
+  }
+  .login-modal input {
+    background-color: #fff;
+    border: 1px solid #a7a7a7;
+    padding: 10px 10px 10px 40px;
+    margin: 8px 0;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+}
+  .mailInp-icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.mailInp-icons i {
+    position: absolute;
+    padding: 14px 10px;
+    background: linear-gradient(90deg, rgba(21,44,247,1) 31%, rgba(82,97,228,1) 74%);
+    color: #fff;
+    font-size: 15px;
+    width: 35px;
+}
+/* ==== */
+.forget-psd {
+    color: #000 !important;
+    margin-bottom: 0 !important;
+}
+.login-modal .social-container .fb-bg {
+    background: #474ca3;
+    border-color: #474ca3;
+}
+.login-modal .social-container a i {
+    transform: rotate(315deg);
+}
+.login-modal .social-container .in-bg {
+    background: linear-gradient(90deg, rgba(179,55,175,1) 0%, rgba(252,193,80,1) 100%, rgba(179,55,175,1) 100%);
+    border-color: #ef4c7b;
+}
+.login-modal .social-container .tw-bg {
+    background: #33a4ff;
+    border-color: #33a4ff;
+}
+/* ==== */
+  .login-modal {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    max-width: 768px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 480px;
+  }
+  .login-modal .form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+  }
+  .login-modal .sign-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+  }
+  .login-modal.right-panel-active .sign-in-container {
+    transform: translateX(100%);
+  }
+  .login-modal .sign-up-container {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+  }
+  .login-modal.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: show 0.6s;
+  } 
+  @keyframes show {
+    0%, 49.99% {
+      opacity: 0;
+      z-index: 1;
+    }
+    50%, 100% {
+      opacity: 1;
+      z-index: 5;
+    }
+  }
+  .login-modal .overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+  }
+  .login-modal.right-panel-active .overlay-container{
+    transform: translateX(-100%);
+  }
+  .login-modal .overlay {
+    color: #282828;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+    display: block;
+  }
+  .login-modal.right-panel-active .overlay {
+    transform: translateX(50%);
+  }
+  .login-modal .overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+    background: url(../images/login-popup.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  .login-modal .overlay-left {
+    transform: translateX(-20%);
+  }
+  .login-modal.right-panel-active .overlay-left {
+    transform: translateX(0);
+  }
+  .login-modal .overlay-right {
+    right: 0;
+    transform: translateX(0);
+  }
+  .login-modal .login-modal.right-panel-active .overlay-right {
+    transform: translateX(20%);
+  }
+  .login-modal .social-container {
+    margin: 20px 0;
+  }
+  .login-modal .social-container a {
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    transform: rotate(45deg);
+    transition: all 0.25s;
+    color: #1b1a1a;
+  }
+  .opt {
+    margin-bottom: 0 !important;
+    color: #000 !important;
+    font-size: 20px !important;
+}
+  /*******POPUP MODALS ENDS*******/
+
+  /* =====Spin Wheel Css Start Here===== */
+  .spinwheel-wrap {
+    z-index: 9999;
+  }
+  .spinwheel-wrap .modal-content {
+    background: url(../images/credit-banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 720px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.mainbox {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+  .mainbox:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(./arrow-bottom.png) no-repeat;
+    background-size: 5%;
+    left: 5%;
+    top: 48%;
+    transform: rotate(90deg);
+  }
+  .box {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    border-radius: 50%;
+    transition: all ease-in-out 5s;
+    transform: rotate(90deg);
+    background: url(../images/spinner-bg.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .spin {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 40px;
+    border: 1px solid #040d5c;
+    background-color: #040d5c;
+    color: #fff;
+    box-shadow: 0 5px 20px #000;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.mainbox.animate:after {
+    animation: animateArrow 0.7s ease infinite;
+  }
+  audio {
+    display: none;
+  }
+  @keyframes animateArrow {
+    50% {
+      right: -50px;
+    }
+  }
+  @media (max-width: 576px) {
+    .mainbox {
+      width: 100%;
+      height: 50%;
+    }
+  }
+
+  /* ==== */
+  .spinwheel-wrap .modal-dialog {
+    max-width: 1000px;
+    min-height: 700px;
+}
+.wheel-st1 {
+    position: absolute;
+    bottom: 175px;
+    right: 305px;
+    transform: rotate(-27deg);
+}
+.wheel-st2 {
+    position: absolute;
+    bottom: 110px;
+    right: 235px;
+    transform: rotate(290deg);
+}
+.wheel-st3 {
+    position: absolute;
+    right: 75px;
+    top: 175px;
+    transform: rotate(155deg);
+}
+.wheel-st4 {
+    position: absolute;
+    right: 85px;
+    bottom: 175px;
+    transform: rotate(210deg);
+}
+.wheel-st5 {
+    position: absolute;
+    left: 140px;
+    top: 110px;
+    transform: rotate(-115deg);
+}
+.wheel-st6 {
+    position: absolute;
+    top: 178px;
+    left: 76px;
+    transform: rotate(24deg);
+}
+.wheel-st7 {
+    position: absolute;
+    right: 145px;
+    bottom: 115px;
+    transform: rotate(-115deg);
+}
+.wheel-st8 {
+    position: absolute;
+    top: 110px;
+    left: 238px;
+    transform: rotate(112deg);
+}
+.spintext {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.spinwheel-wrap .btn-close {
+    top: 2%;
+    right: 2%;
+    box-sizing: content-box;
+    width: 25px;
+    height: 25px;
+    color: #000;
+    border-radius: 50%;
+    opacity: 1 !important;
+    background-color: #fff;
+    position: absolute;
+    transition: all 2s ease-in-out;
+}
+.spinner_logo img {
+    max-width: 140px;
+    object-fit: cover;
+    object-position: center;
+}
+.spinner_logo {
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+.spinner-point img {
+    max-width: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.spinner-point {
+    position: absolute;
+    top: 0%;
+    left: 43.6%;
+}
